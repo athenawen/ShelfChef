@@ -5,7 +5,7 @@ import UIKit
 import ChatGPTSwift
 
 class AddPantryFunctions {
-    let api = ChatGPTAPI(apiKey: "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")
+    let api = ChatGPTAPI(apiKey: "ChatGPT-api-key")
     func filterQuantityInput(_ input: String) -> String {
         var filtered = input.filter { "0123456789.".contains($0) }
         let decimalCount = filtered.filter { $0 == "." }.count
