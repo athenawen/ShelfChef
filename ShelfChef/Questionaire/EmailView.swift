@@ -47,7 +47,7 @@ struct EmailView: View {
     }
     
     func sendEmailToFoodBank(firstName: String, userEmail: String) {
-        let apiKey = "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"
+        let apiKey = "SendGrid-api-key"
         let url = URL(string: "https://api.sendgrid.com/v3/mail/send")!
         
         let emailBody = """
