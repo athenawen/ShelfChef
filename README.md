@@ -23,4 +23,6 @@ To fully utilize the app’s features, you need to add your own API keys for Cha
 4. Add the API keys to your project by replacing the following lines in EmailView and AddPantryFunctions:  
    let ChatGPTAPIKey = ChatGPTAPI(apiKey: "ChatGPT-api-key")
    let sendGridAPIKey = "send-grid-api-key"
-
+   
+## License
+This project is licensed under the MIT License.
